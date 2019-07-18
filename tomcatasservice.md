@@ -2,7 +2,7 @@
 ## Tomcat Installation
 
 1. Download from the Apache Tomcat 8.5 [download](http://tomcat.apache.org/download-80.cgi)  page the Core 64-bit Windows zip (or the 32-Bit zip).
-> > *32-bit Windows zip (pgp, sha512) or 64-bit Windows zip (pgp, sha512)*
+> *32-bit Windows zip (pgp, sha512) or 64-bit Windows zip (pgp, sha512)*
 2. Unzip it (for example to C:\tomcat\)
 3. That’s it. Now we have a ready-to-use Tomcat with default configuration values. But it isn’t install as a service.
 
