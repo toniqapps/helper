@@ -1,3 +1,5 @@
+**_NOTE:_**  Make sure java jdk is installed and JAVA_HOME is set to jdk path 
+
 # Automatic Tomcat 8.5 Installation and Configuration as Windows Service
 ## Tomcat Installation
 
