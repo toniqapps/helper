@@ -13,7 +13,7 @@
 ```cmd
 C:\Users\****> cd C:\apache-tomcat-8.5.43-windows-x64\apache-tomcat-8.5.*\bin
 ```
-3.  Install Tomcat as service named tomcat8 by calling startup.bat install <servicename>  
+3.  Install Tomcat as service named tomcat8 by calling service.bat install <servicename>  
 ```cmd
 C:\tomcat\apache-tomcat-8.5.11\bin>service.bat install tomcat8
 ```
@@ -26,3 +26,8 @@ C:\tomcat\apache-tomcat-8.5.11\bin>tomcat8.exe //US//tomcat8 --Startup=auto --Ja
 net start tomcat8
 ```
 5. You can check on http://localhost:8080 whether Tomcat is installed correctly.
+ 
+6. Stop the Tomcat service with net stop <servicename>
+```cmd
+net stop tomcat8
+```
